@@ -1,5 +1,12 @@
-import {randomSuperhero} from 'superheroes';
-const body = document.getElementById('content')
-const text =document.createElement('h1')
-text.innerText=randomSuperhero();
-body.appendChild(text)
+import loadAbout from "./about";
+import loadHome  from "./home";
+
+
+
+const home =document.querySelector('.home')
+const abt = document.querySelector('.about')
+
+abt.addEventListener('click',loadAbout)
+home.addEventListener('click',loadHome)
+
+loadHome();
