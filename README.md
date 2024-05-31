@@ -1,2 +1,3 @@
 This is a webpage which i made by using webpack. The page is live [here](https://rehmansohail.github.io/restaurant/)  
-clone the main branch and run npm build to make the dist folder which contains all the distribution files
+Clone the main branch and run ***npm install*** to install the necessary dependencies.  
+Run ***npm run build*** to bundle the files in dist folder.
